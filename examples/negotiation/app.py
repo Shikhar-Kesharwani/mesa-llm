@@ -55,6 +55,7 @@ model = NegotiationModel(
     seed=model_params["seed"]["value"],
 )
 
+
 def model_portrayal(agent):
     if agent is None:
         return
